@@ -1,0 +1,32 @@
+/* Body */
+.col-sm-6{
+    text-align: justify;
+}
+
+div.img{
+    text-align: center;
+}
+
+img.surdo1{
+    width: 250px;
+    padding-top: 120px;
+}
+
+h1.text-inicio{
+    padding-top: 150px;
+}
+
+div.vertical {
+    border-left: 4px solid black;
+    height: 50px;
+    position:absolute;
+}
+
+p.sub-text{
+    text-align: justify;
+    margin-left: 10px;
+}
+
+form{
+    padding-left: 10px;
+}
