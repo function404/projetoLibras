@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
 /* Body */
 .col-sm-6{
     text-align: justify;
@@ -25,6 +27,7 @@ div.vertical {
 p.sub-text{
     text-align: justify;
     margin-left: 10px;
+    font-family: 'Plus Jakarta Sans' ;
 }
 
 form{
