@@ -3,7 +3,7 @@
 
 /* Header */
 
-a.navbar-brand{
+.navbar-brand{
     position: static;
     width: 135px;
     height: 53px;
@@ -14,7 +14,6 @@ a.navbar-brand{
     font-weight: 600;
     font-size: 36px;
     line-height: 53px;
-
 }
 
 .brand{
@@ -81,18 +80,33 @@ form{
     justify-content: center;
 }
 
+
 .footer-info{
-    margin-left: 25%;
+    width: 100%;
     padding: 20px;
 }
 
-/* reponsividade do header */
-
-@media screen and (max-width: 900px){
-    .navbar{
-        flex-direction: column;
-    }
+.col{
+    width: 200px;
 }
+
+a.footer-brand{
+    position: static;
+    width: 135px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    color: rgba(0, 24, 88);
+    margin-left: 367px;
+}
+
+.princ{
+    margin-right: 30%;
+    display: flex;
+}
+
 /* Scroll */
 
 ::-webkit-scrollbar{
