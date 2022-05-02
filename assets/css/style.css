@@ -11,7 +11,7 @@ a.navbar-brand{
     top: 0px;
     font-family: 'Oswald';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 53px;
 
@@ -25,6 +25,8 @@ a.navbar-brand{
 }
 
 .collapse{
+    font-family: 'Oswald';
+    font-size: 30px;
     margin-left: 10%;
     padding: 20px;
 }
@@ -81,18 +83,29 @@ form{
     justify-content: center;
 }
 
-.footer-info{
-    margin-left: 25%;
-    padding: 20px;
+.footer-info1{
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px 0px ;
 }
 
-/* reponsividade do header */
-
-@media screen and (max-width: 900px){
-    .navbar{
-        flex-direction: column;
-    }
+.text-final{
+    font-family: 'Oswald';
 }
+
+.footer-princ{
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-brand{
+    position: static;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
 /* Scroll */
 
 ::-webkit-scrollbar{
@@ -102,7 +115,8 @@ form{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgba(0, 24, 88, .2) ;
+    background-color: rgba(0, 24, 88, .2);
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-track{
