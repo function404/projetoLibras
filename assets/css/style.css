@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+body{
+    
+}
+
 /* Header */
 
 .navbar-brand{
@@ -72,6 +76,7 @@ form{
     height: 100%;
     background-color: rgba(0, 24, 88, 0.507);
     padding: 10px;
+    
 }
 
 .footer-container{
@@ -101,12 +106,22 @@ a.footer-brand{
     font-size: 36px;
     line-height: 53px;
     color: rgba(0, 24, 88);
-    margin-left: 367px;
+    padding-right: 570px;
+}
+
+.text-final{
+    font-family: 'Plus Jakarta Sans';
 }
 
 .princ{
     margin-right: 30%;
     display: flex;
+}
+
+/* contato */
+
+.categorias{
+    text-align: center;
 }
 
 /* Scroll */
