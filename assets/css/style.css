@@ -72,11 +72,11 @@ form{
 /* Footer */
 
 .footer{
-    width: 100%;
-    height: 100%;
     background-color: rgba(0, 24, 88, 0.507);
-    padding: 10px;
-    
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
 
 .footer-container{
@@ -122,6 +122,11 @@ a.footer-brand{
 
 .categorias{
     text-align: center;
+}
+
+/* Dentro */
+.col-sm{
+    background-color: aliceblue;
 }
 
 /* Scroll */
